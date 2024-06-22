@@ -1,4 +1,4 @@
--- this is my hub btw, will be in lumina hub at https://discord.gg/9ykEetCY
+-- this is my hub btw, credits to shivam for making me scripter and tester https://discord.gg/9ykEetCY
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("hub by average_MC/roblox_exploite", "BloodTheme")
