@@ -1,0 +1,21 @@
+-- this is my hub btw, will be in lumina hub at https://discord.gg/9ykEetCY
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("hub by average_MC/roblox_exploite", "BloodTheme")
+local Main = Window:NewTab("Scripts")
+local MainSection = Main:NewSection("Scripts")
+MainSection:NewButton("inf yield", "runs inf yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+MainSection:NewButton("nameless admin", "runs nameless admin v1.13", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
+MainSection:NewButton("fe marble", "runs fe marble", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/EJskzezp'))()
+end)
+MainSection:NewButton("lumina hub", "runs lumina hub by Shivam", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Shivam-Scriptz/LUMINA-HUB/main/LuminaHub'))()
+end)
+MainSection:NewButton("blade ball", "runs a blade ball script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+end)
