@@ -5,5 +5,5 @@ local Window = Library.CreateLib("hub by average_MC/roblox_exploite", "BloodThem
 local Main = Window:NewTab("Scripts")
 local MainSection = Main:NewSection("Scripts")
 MainSection:NewButton("me hub", "the hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/githubuser1038/my-hub/refs/heads/main/anoda%20hub"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/githubuser1038/my-hub/refs/heads/main/anoda%20hub"))()
 end)
