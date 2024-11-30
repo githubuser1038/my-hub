@@ -40,3 +40,10 @@ local Button = mainTab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
+local Button = mainTab:CreateButton({
+   Name = "exit the hub",
+   Callback = function(Rayfield:Destroy())
+   -- The function that takes place when the button is pressed
+   end,
+})
+
